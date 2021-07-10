@@ -45,35 +45,25 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 2; index++) {
-        music.playTone(175, music.beat(BeatFraction.Whole))
-        music.rest(music.beat(BeatFraction.Whole))
+        music.playTone(175, music.beat(BeatFraction.Double))
     }
-    music.playTone(131, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
-    music.playTone(175, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
+    music.playTone(131, music.beat(BeatFraction.Double))
+    music.playTone(175, music.beat(BeatFraction.Double))
     for (let index = 0; index < 7; index++) {
-        music.playTone(175, music.beat(BeatFraction.Whole))
-        music.rest(music.beat(BeatFraction.Whole))
+        music.playTone(175, music.beat(BeatFraction.Double))
     }
-    music.playTone(131, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
+    music.playTone(131, music.beat(BeatFraction.Double))
     for (let index = 0; index < 2; index++) {
-        music.playTone(175, music.beat(BeatFraction.Whole))
-        music.rest(music.beat(BeatFraction.Whole))
+        music.playTone(175, music.beat(BeatFraction.Double))
     }
     for (let index = 0; index < 2; index++) {
-        music.playTone(233, music.beat(BeatFraction.Whole))
-        music.rest(music.beat(BeatFraction.Whole))
+        music.playTone(233, music.beat(BeatFraction.Double))
     }
     for (let index = 0; index < 2; index++) {
-        music.playTone(175, music.beat(BeatFraction.Whole))
-        music.rest(music.beat(BeatFraction.Whole))
+        music.playTone(175, music.beat(BeatFraction.Double))
     }
-    music.playTone(131, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
-    music.playTone(175, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
+    music.playTone(131, music.beat(BeatFraction.Double))
+    music.playTone(175, music.beat(BeatFraction.Double))
 })
 basic.forever(function () {
     music.setTempo(120)
